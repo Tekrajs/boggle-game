@@ -15,9 +15,9 @@ import CurrentWord from '../CurrentWord';
 import Button from '../Button';
 import Leaderboard from '../Leaderboard';
 import Mymodal from '../Mymodal';
-import './Game.css';
 import axios from 'axios';
 import agent from '../../agent/agent';
+import './Game.css';
 
 export default class Game extends Component {
 
@@ -216,7 +216,7 @@ export default class Game extends Component {
     
       <div>
         
-        {istimeup ? 
+        {istimeup && newhighscore ? 
         <ModalShow 
         show={istimeup}
         identifier={this.Id}
