@@ -1,0 +1,58 @@
+
+/* Score Area */
+
+.score-box {
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #EEEEEE;
+    float: right;
+    margin: 15px;
+    padding: 20px;
+}
+
+.scorer-list {
+    width: 100%;
+    height: 408px;
+}
+
+.score {
+    width: 100%;
+    float: left;
+}
+
+.score-box li {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+
+h2 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    display: inline;
+    color: #616161;
+}
+
+/* Button States */
+.restart-button {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #FF9800;
+    padding: 7px 0;
+    -webkit-transition: background 0.5s; /* Safari */
+    transition: background 0.5s;
+    box-shadow: 2px 2px 5px rgba(255, 204, 128, .25);
+    display: block;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.restart-button:hover {
+    background: #EF6C00;
+    cursor: pointer;
+}
