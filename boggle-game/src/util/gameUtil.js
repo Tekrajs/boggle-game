@@ -129,13 +129,6 @@ export const isAdjacent = (tile1, tile2) => {
 };
 
 export const calculateScore = word => {
-  const score = word.length - 2;
-
-  if (score < 1) {
-    return 1;
-  }
-  if (score > 6) {
-    return 6;
-  }
+  const score = word.length;
   return score;
 };
