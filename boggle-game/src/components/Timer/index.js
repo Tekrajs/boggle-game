@@ -4,7 +4,7 @@ class Timer extends React.Component {
     constructor(props) {
       super(props);
       const { handleTimeup } = props;
-      this.state = { time: {}, seconds: 60 };
+      this.state = { time: {}, seconds: 120 };
       this.timer = 0;
       this.startTimer = this.startTimer.bind(this);
       this.countDown = this.countDown.bind(this);
