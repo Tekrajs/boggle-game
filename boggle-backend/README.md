@@ -5,20 +5,33 @@
 Things you may want to cover:
 
 # Ruby version
-  * version: 
+  * version:  2.5.1p57
 
-* System dependencies
+# Rails version
+  * version: 6.0.2.1
 
-* Configuration
+# Quick Start 
 
-* Database creation
+You need to have bundler installed in your system.
 
-* Database initialization
+**Step 1:** You can install it by typing:
 
-* How to run the test suite
+```bash
+$ gem install bundler
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+**Step 2:** Install all the related package.
+
+Open of a terminal window in the root of the project **/boggle-rails-react** and type :
+
+```bash
+$ bundle install
+
+**Step 3:** Run the server:
+
+```bash
+$ rails server
+
+** Note: ** *Since this is just api, you need to follow the readme of front end too.*
