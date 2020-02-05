@@ -20,18 +20,18 @@ You need to have bundler installed in your system.
 $ gem install bundler
 ```
 
-
-
 **Step 2:** Install all the related package.
 
-Open of a terminal window in the root of the project **/boggle-rails-react** and type :
+Open of a terminal window in the root of the project **/boggle/boggle-backend** and type :
 
 ```bash
 $ bundle install
+```
 
 **Step 3:** Run the server:
 
 ```bash
 $ rails server
+```
 
 ** Note: ** *Since this is just api, you need to follow the readme of front end too.*
